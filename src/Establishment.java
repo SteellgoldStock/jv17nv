@@ -36,7 +36,7 @@ public class Establishment {
 
 	@Override
 	public String toString() {
-		return "Établissement à " + address + " (" + employees.size() + " salarié(s))";
+		return "Établissement à " + this.address.toString() + " (" + employees.size() + " salarié(s)";
 	}
 }
 
