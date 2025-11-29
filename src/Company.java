@@ -47,10 +47,7 @@ public class Company {
 	public int getTotalEmployees() {
 		int total = 0;
 
-		for (Establishment establishment : establishments) {
-			total += establishment.getEmployeeCount();
-		}
-
+		for (Establishment establishment : establishments) total += establishment.getEmployeeCount();
 		return total;
 	}
 
